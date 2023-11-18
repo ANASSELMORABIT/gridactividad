@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-areas:
+    'H1 H1'
+    'ME1 ME1'
+    'P1 MB1'
+    'F1 F1';       
+    gap: 7px;
+    text-align: center;
+    
+}
+.item1{background: green;grid-area: H1;border-radius: 0.5rem;}
+.item2{background: orange;grid-area: ME1;border-radius: 0.5rem;}
+.item3{background: pink;grid-area: P1;border-radius: 0.5rem;}
+.item4{background: blue;grid-area: MB1;border-radius: 0.5rem;}
+.item5{background: rebeccapurple;grid-area:F1;border-radius: 0.5rem;}
